@@ -16,12 +16,11 @@ body {
 
 a {
   color: #fff;
-  text-decoration: none;
+  transition: .4s;
 }
 
 a:hover {
   color: #333;
-  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -173,6 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   padding-right: 8px;
   color: #fff5;
+  transition: .4s;
 }
 
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 6px 0;
   overflow: hidden;
 }
 
@@ -295,6 +295,9 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+}
+.section-title.custom-margin {
+  padding-bottom: 6px;
 }
 
 .section-title h2 {
@@ -336,7 +339,7 @@ section {
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
@@ -1078,5 +1081,32 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+a.custom-link {
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: .4s;
+}
+a.custom-link:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+b {
+  margin-right: 4px;
+}
+
+.divider {
+  width: 97%;
+  height: 1px;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 14px;
+}
+@media(max-width: 768px) {
+  .divider {
+    width: 94%;
   }
 }
