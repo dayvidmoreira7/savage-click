@@ -1,5 +1,5 @@
 const groups = {
-  design: { label: 'Design', size: 5, ext: 'png' },
+  // design: { label: 'Design', size: 5, ext: 'png' },
   'hip-hop': { label: 'Hip Hop', size: 4, ext: 'jpg' },
   lifestyle: { label: 'Lifestyle', size: 5, ext: 'jpg' },
   projeto: { label: 'Projeto Solidário', size: 5, ext: 'jpg' },
